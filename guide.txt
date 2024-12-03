@@ -1,0 +1,5 @@
+sudo apt update
+sudo apt install -y protobuf-compiler
+
+Use the protoc command to generate Python code from the .proto file.
+protoc --python_out=. person.proto [This generates person_pb2.py in the same directory.]

@@ -1,0 +1,7 @@
+syntax = "proto3"; // Specify proto version
+
+message Person {
+  int32 id = 1;          // Field number is unique within the message
+  string name = 2;       // String field
+  string email = 3;      // Email address
+}
